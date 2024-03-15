@@ -1,0 +1,10 @@
+^C:\USERS\DRNAN\ONEDRIVE\MÁY TÍNH\TSPMTZ\BUILD\CMAKEFILES\61AE8FE0C2EACD604BFA99E8A417ACE3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/drnan/OneDrive/Máy tính/TSPMTZ" "-BC:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build/uMV-FSTSP.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\DRNAN\ONEDRIVE\MÁY TÍNH\TSPMTZ\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/drnan/OneDrive/Máy tính/TSPMTZ" "-BC:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build" --check-stamp-file "C:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

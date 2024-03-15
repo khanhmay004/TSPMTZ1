@@ -1,0 +1,3 @@
+C:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build/CMakeFiles/uMV-FSTSP.dir
+C:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/drnan/OneDrive/Máy tính/TSPMTZ/build/CMakeFiles/ZERO_CHECK.dir
